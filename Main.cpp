@@ -2,9 +2,8 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-
 main(){
-int first_input;
+  int first_input;
 int max_value1 = 9;
 int least_value1 =2;
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
@@ -110,8 +109,5 @@ cout << "     #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #  x  \n";
-int iRand = rand() % 9;
 }
-
 };
-
