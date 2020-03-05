@@ -5,7 +5,16 @@ using namespace std;
 main(){
 int first_input;
 char one = 1;
+char two = 2;
+char three = 3;
+char four = 4;
+char five = 5;
+char six = 6;
+char seven = 7;
+char eight = 8;
+char nine = 9;
 char x = 'x';
+
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
 cout << "the board it lined 1-9, please choose 1, you are X\n";
 cout << "     #     #     \n";
@@ -21,6 +30,16 @@ cin >> first_input;
 
 if(first_input == 1){
 one=x;
+}else if(first_input == 2){
+two=x;
+}else if(first_input ==3){
+}else if(first_input ==4){
+}else if(first_input ==5){
+}else if(first_input ==6){
+}else if(first_input ==7){
+}else if(first_input ==8){}
+else(first_input == 9){
+nine=x;
 }
 
 cout << "     #     #     \n";
