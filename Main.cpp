@@ -16,7 +16,6 @@ cout << "  4  #  5  #  6  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "  7  #  8  #  9  \n";
-
 cout << "please choose one\n";
 cin >> first_input;
 if (first_input == 1){
@@ -28,9 +27,7 @@ cout << "     #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #     \n";
-
-}
-else if (first_input == 2){
+}else if (first_input == 2){
 cout << "     #     #     \n";
 cout << "     #  x  #     \n";
 cout << "#################\n";
@@ -39,8 +36,7 @@ cout << "     #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #     \n";
-}
-else if (first_input == 3){
+}else if (first_input == 3){
 cout << "     #     #     \n";
 cout << "     #     #  x  \n";
 cout << "#################\n";
@@ -49,8 +45,7 @@ cout << "     #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #     \n";
-}
-else if (first_input == 4){
+}else if (first_input == 4){
 cout << "     #     #     \n";
 cout << "     #     #     \n";
 cout << "#################\n";
@@ -59,8 +54,7 @@ cout << "  x  #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #     \n";
-}
-else if (first_input == 5){
+}else if (first_input == 5){
 cout << "     #     #     \n";
 cout << "     #     #     \n";
 cout << "#################\n";
@@ -69,8 +63,7 @@ cout << "     #  x  #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #     \n";
-}
-else if (first_input == 6){
+}else if (first_input == 6){
 cout << "     #     #     \n";
 cout << "     #     #     \n";
 cout << "#################\n";
@@ -79,8 +72,7 @@ cout << "     #     #  x  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #     #     \n";
-}
-else if (first_input == 7){
+}else if (first_input == 7){
 cout << "     #     #     \n";
 cout << "     #     #     \n";
 cout << "#################\n";
@@ -89,8 +81,7 @@ cout << "     #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "  x  #     #     \n";
-}
-else if (first_input == 8){
+}else if (first_input == 8){
 cout << "     #     #     \n";
 cout << "     #     #     \n";
 cout << "#################\n";
@@ -99,8 +90,7 @@ cout << "     #     #     \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "     #  x  #     \n";
-}
-else (first_input == 9){
+}else (first_input == 9){
 cout << "     #     #     \n";
 cout << "     #     #     \n";
 cout << "#################\n";
