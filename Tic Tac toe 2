@@ -367,5 +367,5 @@ if(one == x && one == two, two == x && one == three){
     cout << "player 1 wins";
 }else if(three == five && five == o, five == seven && seven == o){
     cout << "player 2 wins";
-    }
+}
 };
