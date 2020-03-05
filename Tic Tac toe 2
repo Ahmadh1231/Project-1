@@ -337,5 +337,35 @@ cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 if(one == x && one == two, two == x && one == three){
     cout << "player 1 wins";
-}else if 
+}else if(one == o && one == two, two == o && one == three){
+    cout << "player 2 wins";
+}else if(four == x && four == five, five == x && five == six){
+    cout << "player 1 wins";
+}else if(four == o && four == five, five == o && five == six){
+    cout << "player 2 wins";
+}else if(seven == o && seven == eight, eight == o && eight == nine){
+    cout << "player 2 wins";
+}else if(seven == x && seven == eight, eight == x && eight == nine){
+    cout << "player 1 wins";
+}else if(one == four && one == x, four == seven && four == x){
+    cout << "player ";
+}else if(one == four && one == o, four == seven && four == o){
+    cout << "player 2 wins";
+}else if(two == five && two == o, five == eight && eight == o){
+    cout << "player 2 wins";
+}else if(two == five && two == x, five == eight && eight == x){
+    cout << "player 1 wins";
+}else if(three == six && three == x, six == nine && nine == x){
+    cout << "player 1 wins";
+}else if(three == six && three == o, six == nine && nine == o){
+    cout << "player 2 wins";
+}else if(one == five && five == x, five == nine && nine == x){
+    cout << "player 1 wins";
+}else if(one == five && five == o, five == nine && nine == o){
+    cout << "player 2 wins";
+}else if(three == five && five == x, five == seven && seven == x){
+    cout << "player 1 wins";
+}else if(three == five && five == o, five == seven && seven == o){
+    cout << "player 2 wins";
+    }
 };
