@@ -4,16 +4,25 @@
 using namespace std;
 main(){
 int first_input;
-char one = 1;
-char two = 2;
-char three = 3;
-char four = 4;
-char five = 5;
-char six = 6;
-char seven = 7;
-char eight = 8;
-char nine = 9;
+int second_input;
+int third_input;
+int fourth_input;
+int fifth_input;
+int sixth_input;
+int seventh_input;
+int eighth_input;
+int nineth_input;
+char one = '1';
+char two = '2';
+char three = '3';
+char four = '4';
+char five = '5';
+char six = '6';
+char seven = '7';
+char eight = '8';
+char nine = '9';
 char x = 'x';
+char o = 'O';
 
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
 cout << "the board it lined 1-9, please choose 1, you are X\n";
@@ -33,22 +42,300 @@ one=x;
 }else if(first_input == 2){
 two=x;
 }else if(first_input ==3){
+three=x;
 }else if(first_input ==4){
+four=x;
 }else if(first_input ==5){
+five=x;
 }else if(first_input ==6){
+six=x;
 }else if(first_input ==7){
-}else if(first_input ==8){}
-else(first_input == 9){
+seven=x;
+}else if(first_input ==8){
+eight=x;
+}else if(first_input == 9){
 nine=x;
-}
+}else(first_input != 1 && first_input != 2 && first_input != 3 && first_input != 4 && first_input != 5 && first_input != 6 && first_input != 7 && first_input != 8 && first_input != 9);{}
 
 cout << "     #     #     \n";
-cout << "  " << one << "  #  " << 2 << "  #  " << 3 << "  \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
-cout << "  " << 4 << "  #  " << 5 <<"  #  " << 6 << "  \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
-cout << "  " << 7 << "  #  " << 8 << "  #  " << 9 << "  \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
+cout << "player 2 please insert second number\n";
+cin >> second_input;
+if(second_input == 1){
+one=o;
+}else if(second_input == 2){
+two=o;
+}else if(second_input ==3){
+three=o;
+}else if(second_input ==4){
+four=o;
+}else if(second_input ==5){
+five=o;
+}else if(second_input ==6){
+six=o;
+}else if(second_input ==7){
+seven=o;
+}else if(second_input ==8){
+eight=o;
+}else if(second_input == 9){
+nine=o;
+}else (second_input != 1 && second_input != 2 && second_input != 3 && second_input != 4 && second_input != 5 && second_input != 6 && second_input != 7 && second_input != 8 && second_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+
+cout << "player 1 please insert third number\n";
+cin >> third_input;
+if(second_input == 1){
+one=x;
+}else if(third_input == 2){
+two=x;
+}else if(third_input ==3){
+three=x;
+}else if(third_input ==4){
+four=x;
+}else if(third_input ==5){
+five=x;
+}else if(third_input ==6){
+six=x;
+}else if(third_input ==7){
+seven=x;
+}else if(third_input ==8){
+eight=x;
+}else if(third_input == 9){
+nine=x;
+}else (third_input != 1 && third_input != 2 && third_input != 3 && third_input != 4 && third_input != 5 && third_input != 6 && third_input != 7 && third_input != 8 && third_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+cout << "player 2 please insert fourth number\n";
+cin >> third_input;
+if(third_input == 1){
+one=o;
+}else if(third_input == 2){
+two=o;
+}else if(third_input ==3){
+three=o;
+}else if(third_input ==4){
+four=o;
+}else if(third_input ==5){
+five=o;
+}else if(third_input ==6){
+six=o;
+}else if(third_input ==7){
+seven=o;
+}else if(third_input ==8){
+eight=o;
+}else if(third_input == 9){
+nine=o;
+}else (third_input != 1 && third_input != 2 && third_input != 3 && third_input != 4 && third_input != 5 && third_input != 6 && third_input != 7 && third_input != 8 && third_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+
+
+
+cout << "player 1 please insert fifth number\n";
+cin >> fifth_input;
+if(fifth_input == 1){
+one=x;
+}else if(fifth_input == 2){
+two=x;
+}else if(fifth_input ==3){
+three=x;
+}else if(fifth_input ==4){
+four=x;
+}else if(fifth_input ==5){
+five=x;
+}else if(fifth_input ==6){
+six=x;
+}else if(fifth_input ==7){
+seven=x;
+}else if(fifth_input ==8){
+eight=x;
+}else if(fifth_input == 9){
+nine=x;
+}else (fifth_input != 1 && fifth_input != 2 && fifth_input != 3 && fifth_input != 4 && fifth_input != 5 && fifth_input != 6 && fifth_input != 7 && fifth_input != 8 && fifth_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+
+
+cout << "player 2 please insert sixth number\n";
+cin >> sixth_input;
+if(sixth_input == 1){
+one=o;
+}else if(sixth_input == 2){
+two=o;
+}else if(sixth_input ==3){
+three=o;
+}else if(sixth_input ==4){
+four=o;
+}else if(sixth_input ==5){
+five=o;
+}else if(sixth_input ==6){
+six=o;
+}else if(sixth_input ==7){
+seven=o;
+}else if(sixth_input ==8){
+eight=o;
+}else if(sixth_input == 9){
+nine=o;
+}else (sixth_input != 1 && sixth_input != 2 && sixth_input != 3 && sixth_input != 4 && sixth_input != 5 && sixth_input != 6 && sixth_input != 7 && sixth_input != 8 && sixth_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+
+
+cout << "player 1 please insert seventh number\n";
+cin >> seventh_input;
+if(seventh_input == 1){
+one=x;
+}else if(seventh_input == 2){
+two=x;
+}else if(seventh_input ==3){
+three=x;
+}else if(seventh_input ==4){
+four=x;
+}else if(seventh_input ==5){
+five=x;
+}else if(seventh_input ==6){
+six=x;
+}else if(seventh_input ==7){
+seven=x;
+}else if(seventh_input ==8){
+eight=x;
+}else if(seventh_input == 9){
+nine=x;
+}else (seventh_input != 1 && seventh_input != 2 && seventh_input != 3 && seventh_input != 4 && seventh_input != 5 && seventh_input != 6 && seventh_input != 7 && seventh_input != 8 && seventh_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+
+
+cout << "player 2 please insert eighth number\n";
+cin >> eighth_input;
+if(sixth_input == 1){
+one=o;
+}else if(eighth_input == 2){
+two=o;
+}else if(eighth_input ==3){
+three=o;
+}else if(eighth_input ==4){
+four=o;
+}else if(eighth_input ==5){
+five=o;
+}else if(eighth_input ==6){
+six=o;
+}else if(eighth_input ==7){
+seven=o;
+}else if(eighth_input ==8){
+eight=o;
+}else if(eighth_input == 9){
+nine=o;
+}else (eighth_input != 1 && eighth_input != 2 && eighth_input != 3 && eighth_input != 4 && eighth_input != 5 && eighth_input != 6 && eighth_input != 7 && eighth_input != 8 && eighth_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+
+
+
+cout << "player 1 please insert nineth number\n";
+cin >> nineth_input;
+if(nineth_input == 1){
+one=x;
+}else if(nineth_input == 2){
+two=x;
+}else if(nineth_input ==3){
+three=x;
+}else if(nineth_input ==4){
+four=x;
+}else if(nineth_input ==5){
+five=x;
+}else if(nineth_input ==6){
+six=x;
+}else if(nineth_input ==7){
+seven=x;
+}else if(nineth_input ==8){
+eight=x;
+}else if(nineth_input == 9){
+nine=x;
+}else (nineth_input != 1 && nineth_input != 2 && nineth_input != 3 && nineth_input != 4 && nineth_input != 5 && nineth_input != 6 && nineth_input != 7 && nineth_input != 8 && nineth_input != 9);{
+cout << "\n";
+    }
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
+cout << "#################\n";
+cout << "     #     #     \n";
+cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
+if(one == x && one == two, two == x && one == three){
+    cout << "player 1 wins";
+}else if 
 };
