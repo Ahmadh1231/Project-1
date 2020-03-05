@@ -5,15 +5,15 @@ using namespace std;
 main(){
 int first_input;
 char x = 'x';
-int one = 1;
-int two = 2;
-int three = 3;
-int four = 4;
-int five = 5;
-int six = 6;
-int seven = 7;
-int eight = 8;
-int nine = 9;
+char one = 1;
+char two = 2;
+char three = 3;
+char four = 4;
+char five = 5;
+char six = 6;
+char seven = 7;
+char eight = 8;
+char nine = 9;
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
 cout << "the board it lined 1-9, please choose 1, you are X\n";
 cout << "     #     #     \n";
@@ -27,16 +27,18 @@ cout << "  7  #  8  #  9  \n";
 cout << "please choose one\n";
 cin >> first_input;
 
-if (first_input == 1){
-one= 'x' ;
-cout <<   one;
-cout <<"#     #     ""\n";v
-cout << "  1  #  2  #  3  \n";
+if(first_input == 1){
+one="x";
+}
+
+cout << "     #     #     \n";
+cout << "  " << one << "  #  " << 2 << "  #  " << 3 << "  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
-cout << "  4  #  5  #  6  \n";
+cout << "  " << 4 << "  #  " << 5 <<"  #  " << 6 << "  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
-cout << "  7  #  8  #  9  \n";
+cout << "  " << 7 << "  #  " << 8 << "  #  " << 9 << "  \n";
+
 }
 }
