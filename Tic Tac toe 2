@@ -4,16 +4,8 @@
 using namespace std;
 main(){
 int first_input;
-char x = 'x';
 char one = 1;
-char two = 2;
-char three = 3;
-char four = 4;
-char five = 5;
-char six = 6;
-char seven = 7;
-char eight = 8;
-char nine = 9;
+char x = 'x';
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
 cout << "the board it lined 1-9, please choose 1, you are X\n";
 cout << "     #     #     \n";
@@ -28,7 +20,7 @@ cout << "please choose one\n";
 cin >> first_input;
 
 if(first_input == 1){
-one="x";
+one=x;
 }
 
 cout << "     #     #     \n";
@@ -40,5 +32,4 @@ cout << "#################\n";
 cout << "     #     #     \n";
 cout << "  " << 7 << "  #  " << 8 << "  #  " << 9 << "  \n";
 
-}
-}
+};
