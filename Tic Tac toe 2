@@ -134,26 +134,26 @@ cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
 cout << "player 2 please insert fourth number\n";
-cin >> third_input;
-if(third_input == 1){
+cin >> fourth_input;
+if(fourth_input == 1){
 one=o;
-}else if(third_input == 2){
+}else if(fourth_input == 2){
 two=o;
-}else if(third_input ==3){
+}else if(fourth_input ==3){
 three=o;
-}else if(third_input ==4){
+}else if(fourth_input ==4){
 four=o;
-}else if(third_input ==5){
+}else if(fourth_input ==5){
 five=o;
-}else if(third_input ==6){
+}else if(fourth_input ==6){
 six=o;
-}else if(third_input ==7){
+}else if(fourth_input ==7){
 seven=o;
-}else if(third_input ==8){
+}else if(fourth_input ==8){
 eight=o;
-}else if(third_input == 9){
+}else if(fourth_input == 9){
 nine=o;
-}else (third_input != 1 && third_input != 2 && third_input != 3 && third_input != 4 && third_input != 5 && third_input != 6 && third_input != 7 && third_input != 8 && third_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -249,7 +249,7 @@ if(one == x && one == two, two == x && one == three){
 }else if(three == five && five == o, five == seven && seven == o){
     cout << "player 2 wins\n";
     return 0;
-}else(x == o);{
+}else;{
     cout << "\n";
     }
 
