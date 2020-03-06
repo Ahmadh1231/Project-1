@@ -86,7 +86,7 @@ seven=o;
 eight=o;
 }else if(second_input == 9){
 nine=o;
-}else (second_input != 1 && second_input != 2 && second_input != 3 && second_input != 4 && second_input != 5 && second_input != 6 && second_input != 7 && second_input != 8 && second_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -119,7 +119,7 @@ seven=x;
 eight=x;
 }else if(third_input == 9){
 nine=x;
-}else (third_input != 1 && third_input != 2 && third_input != 3 && third_input != 4 && third_input != 5 && third_input != 6 && third_input != 7 && third_input != 8 && third_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -274,7 +274,7 @@ seven=o;
 eight=o;
 }else if(sixth_input == 9){
 nine=o;
-}else (sixth_input != 1 && sixth_input != 2 && sixth_input != 3 && sixth_input != 4 && sixth_input != 5 && sixth_input != 6 && sixth_input != 7 && sixth_input != 8 && sixth_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -332,7 +332,7 @@ if(one == x && one == two, two == x && one == three){
 }else if(three == five && five == x, five == seven && seven == x){
     cout << "player 1 wins\n";
     return 0;
-}else(x == o);{
+}else;{
     cout << "\n";
     }
 
@@ -359,7 +359,7 @@ seven=x;
 eight=x;
 }else if(seventh_input == 9){
 nine=x;
-}else (seventh_input != 1 && seventh_input != 2 && seventh_input != 3 && seventh_input != 4 && seventh_input != 5 && seventh_input != 6 && seventh_input != 7 && seventh_input != 8 && seventh_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -445,7 +445,7 @@ seven=o;
 eight=o;
 }else if(eighth_input == 9){
 nine=o;
-}else (eighth_input != 1 && eighth_input != 2 && eighth_input != 3 && eighth_input != 4 && eighth_input != 5 && eighth_input != 6 && eighth_input != 7 && eighth_input != 8 && eighth_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -515,8 +515,8 @@ seven=x;
 eight=x;
 }else if(nineth_input == 9){
 nine=x;
-}else if (nineth_input != 1 && nineth_input != 2 && nineth_input != 3 && nineth_input != 4 && nineth_input != 5 && nineth_input != 6 && nineth_input != 7 && nineth_input != 8 && nineth_input != 9);{
-cout << "tie \n";
+}else if;{
+cout << "\n";
     }
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
