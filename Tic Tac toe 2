@@ -131,6 +131,8 @@ cout << "#################\n";
 cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
+
+
 cout << "player 2 please insert fourth number\n";
 cin >> third_input;
 if(third_input == 1){
@@ -199,6 +201,57 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
+if(one == x && one == two, two == x && one == three){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == o && one == two, two == o && one == three){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(four == x && four == five, five == x && five == six){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(four == o && four == five, five == o && five == six){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(seven == o && seven == eight, eight == o && eight == nine){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(seven == x && seven == eight, eight == x && eight == nine){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && one == x, four == seven && four == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && one == o, four == seven && four == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && two == o, five == eight && eight == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && two == x, five == eight && eight == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && three == x, six == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && three == o, six == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(one == five && five == x, five == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == five && five == o, five == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(three == five && five == x, five == seven && seven == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == five && five == o, five == seven && seven == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else{
+    cout << "\n";
+}
 
 cout << "player 2 please insert sixth number\n";
 cin >> sixth_input;
@@ -233,6 +286,57 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
+if(one == x && one == two, two == x && one == three){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == o && one == two, two == o && one == three){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(four == x && four == five, five == x && five == six){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(four == o && four == five, five == o && five == six){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(seven == o && seven == eight, eight == o && eight == nine){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(seven == x && seven == eight, eight == x && eight == nine){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && one == x, four == seven && four == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && one == o, four == seven && four == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && two == o, five == eight && eight == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && two == x, five == eight && eight == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && three == x, six == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && three == o, six == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(one == five && five == x, five == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == five && five == o, five == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(three == five && five == x, five == seven && seven == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == five && five == o, five == seven && seven == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else{
+    cout << "\n";
+}
 
 cout << "player 1 please insert seventh number\n";
 cin >> seventh_input;
@@ -267,6 +371,57 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
+if(one == x && one == two, two == x && one == three){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == o && one == two, two == o && one == three){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(four == x && four == five, five == x && five == six){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(four == o && four == five, five == o && five == six){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(seven == o && seven == eight, eight == o && eight == nine){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(seven == x && seven == eight, eight == x && eight == nine){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && one == x, four == seven && four == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && one == o, four == seven && four == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && two == o, five == eight && eight == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && two == x, five == eight && eight == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && three == x, six == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && three == o, six == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(one == five && five == x, five == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == five && five == o, five == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(three == five && five == x, five == seven && seven == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == five && five == o, five == seven && seven == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else{
+    cout << "\n";
+}
 
 cout << "player 2 please insert eighth number\n";
 cin >> eighth_input;
@@ -301,6 +456,41 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
+if(one == x && one == two, two == x && one == three){
+    cout << "player 1 wins\n";
+}else if(one == o && one == two, two == o && one == three){
+    cout << "player 2 wins\n";
+}else if(four == x && four == five, five == x && five == six){
+    cout << "player 1 wins\n";
+}else if(four == o && four == five, five == o && five == six){
+    cout << "player 2 wins\n";
+}else if(seven == o && seven == eight, eight == o && eight == nine){
+    cout << "player 2 wins\n";
+}else if(seven == x && seven == eight, eight == x && eight == nine){
+    cout << "player 1 wins\n";
+}else if(one == four && one == x, four == seven && four == x){
+    cout << "player 1 wins\n";
+}else if(one == four && one == o, four == seven && four == o){
+    cout << "player 2 wins\n";
+}else if(two == five && two == o, five == eight && eight == o){
+    cout << "player 2 wins\n";
+}else if(two == five && two == x, five == eight && eight == x){
+    cout << "player 1 wins\n";
+}else if(three == six && three == x, six == nine && nine == x){
+    cout << "player 1 wins\n";
+}else if(three == six && three == o, six == nine && nine == o){
+    cout << "player 2 wins\n";
+}else if(one == five && five == x, five == nine && nine == x){
+    cout << "player 1 wins\n";
+}else if(one == five && five == o, five == nine && nine == o){
+    cout << "player 2 wins\n";
+}else if(three == five && five == x, five == seven && seven == x){
+    cout << "player 1 wins\n";
+}else if(three == five && five == o, five == seven && seven == o){
+    cout << "player 2 wins\n";
+}else{
+    cout << "\n";
+}
 
 
 cout << "player 1 please insert nineth number\n";
@@ -336,36 +526,38 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 if(one == x && one == two, two == x && one == three){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(one == o && one == two, two == o && one == three){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(four == x && four == five, five == x && five == six){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(four == o && four == five, five == o && five == six){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(seven == o && seven == eight, eight == o && eight == nine){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(seven == x && seven == eight, eight == x && eight == nine){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(one == four && one == x, four == seven && four == x){
-    cout << "player ";
+    cout << "player 1 wins \n";
 }else if(one == four && one == o, four == seven && four == o){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(two == five && two == o, five == eight && eight == o){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(two == five && two == x, five == eight && eight == x){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(three == six && three == x, six == nine && nine == x){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(three == six && three == o, six == nine && nine == o){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(one == five && five == x, five == nine && nine == x){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(one == five && five == o, five == nine && nine == o){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
 }else if(three == five && five == x, five == seven && seven == x){
-    cout << "player 1 wins";
+    cout << "player 1 wins\n";
 }else if(three == five && five == o, five == seven && seven == o){
-    cout << "player 2 wins";
+    cout << "player 2 wins\n";
+}else{
+    cout << "\n";
 }
 };
