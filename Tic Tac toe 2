@@ -101,7 +101,7 @@ cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 cout << "player 1 please insert third number\n";
 cin >> third_input;
-if(second_input == 1){
+if(third_input == 1){
 one=x;
 }else if(third_input == 2){
 two=x;
