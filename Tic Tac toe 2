@@ -2,7 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-main(){
+int main(){
 int first_input;
 int second_input;
 int third_input;
@@ -21,7 +21,7 @@ char six = '6';
 char seven = '7';
 char eight = '8';
 char nine = '9';
-char x = 'x';
+char x = 'X';
 char o = 'O';
 
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
@@ -55,7 +55,7 @@ seven=x;
 eight=x;
 }else if(first_input == 9){
 nine=x;
-}else(first_input != 1 && first_input != 2 && first_input != 3 && first_input != 4 && first_input != 5 && first_input != 6 && first_input != 7 && first_input != 8 && first_input != 9);{}
+}else;{}
 
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
@@ -188,7 +188,7 @@ seven=x;
 eight=x;
 }else if(fifth_input == 9){
 nine=x;
-}else (fifth_input != 1 && fifth_input != 2 && fifth_input != 3 && fifth_input != 4 && fifth_input != 5 && fifth_input != 6 && fifth_input != 7 && fifth_input != 8 && fifth_input != 9);{
+}else;{
 cout << "\n";
     }
 cout << "     #     #     \n";
@@ -564,3 +564,6 @@ if(one == x && one == two, two == x && one == three){
     }
 
 };
+
+
+
