@@ -500,7 +500,7 @@ if(one == x && one == two, two == three){
 }else if(one == five && five == o, five == nine && nine == o){
     cout << "player 2 wins\n";
      return 0;
-}else if(three == five && five == x, five == seven && seven == x){
+}else if(three == five && five == seven && seven == x){
     cout << "player 1 wins\n";
      return 0;
 }else if(three == five && five == o, five == seven && seven == o){
