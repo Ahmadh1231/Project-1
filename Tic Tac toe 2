@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
+#include <stdlib.h>
 using namespace std;
 int main(){
 int first_input;
@@ -65,6 +66,7 @@ cout << "  " << four << "  #  " << five <<"  #  " << six << "  \n";
 cout << "#################\n";
 cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
+
 
 cout << "player 2 please insert second number\n";
 cin >> second_input;
@@ -201,52 +203,52 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
-if(one == x && one == two, two == x && one == three){
+if(one == x && one == two && one == three){
     cout << "player 1 wins\n";
     return 0;
 }else if(one == o && one == two && one == three){
     cout << "player 2 wins\n";
     return 0;
-}else if(four == x && four == five, five == x && five == six){
+}else if(four == x && four == five && five == six){
     cout << "player 1 wins\n";
     return 0;
-}else if(four == o && four == five, five == o && five == six){
+}else if(four == o && four == five && five == six){
     cout << "player 2 wins\n";
     return 0;
-}else if(seven == o && seven == eight, eight == o && eight == nine){
+}else if(seven == o && seven == eight && eight == nine){
     cout << "player 2 wins\n";
     return 0;
-}else if(seven == x && seven == eight, eight == x && eight == nine){
+}else if(seven == x && seven == eight && eight == nine){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == four && one == x, four == seven && four == x){
+}else if(one == four && four == seven && four == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == four && one == o, four == seven && four == o){
+}else if(one == four && four == seven && four == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(two == five && two == o, five == eight && eight == o){
+}else if(two == five && five == eight && eight == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(two == five && two == x, five == eight && eight == x){
+}else if(two == five && five == eight && eight == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == six && three == x, six == nine && nine == x){
+}else if(three == six && six == nine && nine == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == six && three == o, six == nine && nine == o){
+}else if(three == six && six == nine && nine == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(one == five && five == x, five == nine && nine == x){
+}else if(one == five && five == nine && nine == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == five && five == o, five == nine && nine == o){
+}else if(one == five && five == nine && nine == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(three == five && five == x, five == seven && seven == x){
+}else if(three == five && five == seven && seven == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == five && five == o, five == seven && seven == o){
+}else if(three == five && five == seven && seven == o){
     cout << "player 2 wins\n";
     return 0;
 }else;{
@@ -287,55 +289,58 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
-if(one == x && one == two, two == x && one == three){
+
+if(one == x && one == two && one == three){
     cout << "player 1 wins\n";
     return 0;
 }else if(one == o && one == two && one == three){
     cout << "player 2 wins\n";
     return 0;
-}else if(four == x && four == five, five == x && five == six){
+}else if(four == x && four == five && five == six){
     cout << "player 1 wins\n";
     return 0;
-}else if(four == o && four == five, five == o && five == six){
+}else if(four == o && four == five && five == six){
     cout << "player 2 wins\n";
     return 0;
-}else if(seven == o && seven == eight, eight == o && eight == nine){
+}else if(seven == o && seven == eight && eight == nine){
     cout << "player 2 wins\n";
     return 0;
-}else if(seven == x && seven == eight, eight == x && eight == nine){
+}else if(seven == x && seven == eight && eight == nine){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == four && one == x, four == seven && four == x){
+}else if(one == four && four == seven && four == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == four && one == o, four == seven && four == o){
+}else if(one == four && four == seven && four == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(two == five && two == o, five == eight && eight == o){
+}else if(two == five && five == eight && eight == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(two == five && two == x, five == eight && eight == x){
+}else if(two == five && five == eight && eight == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == six && three == x, six == nine && nine == x){
+}else if(three == six && six == nine && nine == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == six && three == o, six == nine && nine == o){
+}else if(three == six && six == nine && nine == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(one == five && five == x, five == nine && nine == x){
+}else if(one == five && five == nine && nine == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == five && five == o, five == nine && nine == o){
+}else if(one == five && five == nine && nine == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(three == five && five == x, five == seven && seven == x){
+}else if(three == five && five == seven && seven == x){
     cout << "player 1 wins\n";
+    return 0;
+}else if(three == five && five == seven && seven == o){
+    cout << "player 2 wins\n";
     return 0;
 }else;{
     cout << "\n";
     }
-
 
 
 
@@ -372,7 +377,8 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
-if(one == x && one == two && two == three){
+
+if(one == x && one == two && one == three){
     cout << "player 1 wins\n";
     return 0;
 }else if(one == o && one == two && one == three){
@@ -381,43 +387,43 @@ if(one == x && one == two && two == three){
 }else if(four == x && four == five && five == six){
     cout << "player 1 wins\n";
     return 0;
-}else if(four == o && four == five, five == o && five == six){
+}else if(four == o && four == five && five == six){
     cout << "player 2 wins\n";
     return 0;
-}else if(seven == o && seven == eight, eight == o && eight == nine){
+}else if(seven == o && seven == eight && eight == nine){
     cout << "player 2 wins\n";
     return 0;
 }else if(seven == x && seven == eight && eight == nine){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == four && one == x && four == seven){
+}else if(one == four && four == seven && four == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == four && one == o, four == seven && four == o){
+}else if(one == four && four == seven && four == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(two == five && two == o, five == eight && eight == o){
+}else if(two == five && five == eight && eight == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(two == five && two == x, five == eight && eight == x){
+}else if(two == five && five == eight && eight == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == six && three == x, six == nine && nine == x){
+}else if(three == six && six == nine && nine == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == six && three == o, six == nine && nine == o){
+}else if(three == six && six == nine && nine == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(one == five && five == x && five == nine){
+}else if(one == five && five == nine && nine == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(one == five && five == o, five == nine && nine == o){
+}else if(one == five && five == nine && nine == o){
     cout << "player 2 wins\n";
     return 0;
-}else if(three == five && five == x && five == seven){
+}else if(three == five && five == seven && seven == x){
     cout << "player 1 wins\n";
     return 0;
-}else if(three == five && five == o, five == seven && seven == o){
+}else if(three == five && five == seven && seven == o){
     cout << "player 2 wins\n";
     return 0;
 }else;{
@@ -458,54 +464,55 @@ cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
 
-if(one == x && one == two, two == three){
-    cout << "player 1 wins \n";
-     return 0;
-}else if(one == o && one == two, one == three){
-    cout << "player 2 wins\n";
-     return 0;
-}else if(four == x && four == five, five == x && five == six){
+
+if(one == x && one == two && one == three){
     cout << "player 1 wins\n";
-     return 0;
-}else if(four == o && four == five, five == o && five == six){
-    cout << "player 2 wins\n";
-     return 0;
-}else if(seven == o && seven == eight, eight == o && eight == nine){
-    cout << "player 2 wins\n";
-     return 0;
-}else if(seven == x && seven == eight, eight == x && eight == nine){
-    cout << "player 1 wins\n";
-     return 0;
-}else if(one == four && one == x, four == seven && four == x){
-    cout << "player 1 wins\n"; 
     return 0;
-}else if(one == four && one == o, four == seven && four == o){
+}else if(one == o && one == two && one == three){
     cout << "player 2 wins\n";
-     return 0;
-}else if(two == five && two == o, five == eight && eight == o){
-    cout << "player 2 wins\n";
-     return 0;
-}else if(two == five && two == x, five == eight && eight == x){
+    return 0;
+}else if(four == x && four == five && five == six){
     cout << "player 1 wins\n";
-     return 0;
-}else if(three == six && three == x, six == nine && nine == x){
-    cout << "player 1 wins\n";
-     return 0;
-}else if(three == six && three == o, six == nine && nine == o){
+    return 0;
+}else if(four == o && four == five && five == six){
     cout << "player 2 wins\n";
-     return 0;
-}else if(one == five && five == x, five == nine && nine == x){
-    cout << "player 1 wins\n";
-     return 0;
-}else if(one == five && five == o, five == nine && nine == o){
+    return 0;
+}else if(seven == o && seven == eight && eight == nine){
     cout << "player 2 wins\n";
-     return 0;
+    return 0;
+}else if(seven == x && seven == eight && eight == nine){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && four == seven && four == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == four && four == seven && four == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && five == eight && eight == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(two == five && five == eight && eight == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && six == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && six == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(one == five && five == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == five && five == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
 }else if(three == five && five == seven && seven == x){
     cout << "player 1 wins\n";
-     return 0;
-}else if(three == five && five == o, five == seven && seven == o){
+    return 0;
+}else if(three == five && five == seven && seven == o){
     cout << "player 2 wins\n";
-     return 0;
+    return 0;
 }else;{
     cout << "\n";
     }
@@ -543,58 +550,59 @@ cout << "#################\n";
 cout << "     #     #     \n";
 cout << "  " << seven << "  #  " << eight << "  #  " << nine << "  \n";
 
-if(one == x && one == two, two == x && one == three){
+
+if(one == x && one == two && one == three){
     cout << "player 1 wins\n";
-     return 0;
+    return 0;
 }else if(one == o && one == two && one == three){
     cout << "player 2 wins\n";
-     return 0;
-}else if(four == x && four == five, five == x && five == six){
+    return 0;
+}else if(four == x && four == five && five == six){
     cout << "player 1 wins\n";
-     return 0;
-}else if(four == o && four == five, five == o && five == six){
+    return 0;
+}else if(four == o && four == five && five == six){
     cout << "player 2 wins\n";
-     return 0;
-}else if(seven == o && seven == eight, eight == o && eight == nine){
+    return 0;
+}else if(seven == o && seven == eight && eight == nine){
     cout << "player 2 wins\n";
-     return 0;
-}else if(seven == x && seven == eight, eight == x && eight == nine){
+    return 0;
+}else if(seven == x && seven == eight && eight == nine){
     cout << "player 1 wins\n";
-     return 0;
-}else if(one == four && one == x, four == seven && four == x){
-    cout << "player 1 wins \n";
-     return 0;
-}else if(one == four && one == o, four == seven && four == o){
-    cout << "player 2 wins\n";
-     return 0;
-}else if(two == five && two == o, five == eight && eight == o){
-    cout << "player 2 wins\n";
-     return 0;
-}else if(two == five && two == x, five == eight && eight == x){
+    return 0;
+}else if(one == four && four == seven && four == x){
     cout << "player 1 wins\n";
-     return 0;
-}else if(three == six && three == x, six == nine && nine == x){
-    cout << "player 1 wins\n";
-     return 0;
-}else if(three == six && three == o, six == nine && nine == o){
+    return 0;
+}else if(one == four && four == seven && four == o){
     cout << "player 2 wins\n";
-     return 0;
-}else if(one == five && five == x, five == nine && nine == x){
-    cout << "player 1 wins\n";
-     return 0;
-}else if(one == five && five == o, five == nine && nine == o){
+    return 0;
+}else if(two == five && five == eight && eight == o){
     cout << "player 2 wins\n";
-     return 0;
-}else if(three == five && five == x, five == seven && seven == x){
+    return 0;
+}else if(two == five && five == eight && eight == x){
     cout << "player 1 wins\n";
-     return 0;
-}else if(three == five && five == o, five == seven && seven == o){
+    return 0;
+}else if(three == six && six == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == six && six == nine && nine == o){
     cout << "player 2 wins\n";
-     return 0;
-}else{
+    return 0;
+}else if(one == five && five == nine && nine == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(one == five && five == nine && nine == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else if(three == five && five == seven && seven == x){
+    cout << "player 1 wins\n";
+    return 0;
+}else if(three == five && five == seven && seven == o){
+    cout << "player 2 wins\n";
+    return 0;
+}else;{
     cout << "\n";
+    return 0;
     }
-
 };
 
 
