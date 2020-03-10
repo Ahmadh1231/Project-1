@@ -26,7 +26,7 @@ char x = 'X';
 char o = 'O';
 
 cout << "Tic Tac Toe bye Ahmadh Hassan and Patrick charles\n";
-cout << "the board it lined 1-9, please choose 1, you are X\n";
+cout << "the board it lined 1-9, please choose 1, Player 1 is X, player 2 is O\n";
 cout << "     #     #     \n";
 cout << "  1  #  2  #  3  \n";
 cout << "#################\n";
@@ -600,10 +600,7 @@ if(one == x && one == two && one == three){
     cout << "player 2 wins\n";
     return 0;
 }else;{
-    cout << "\n";
+    cout << "Tie\n";
     return 0;
     }
 };
-
-
-
