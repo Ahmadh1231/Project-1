@@ -57,7 +57,7 @@ eight=x;
 }else if(first_input == 9){
 nine=x;
 }else;{}
-
+system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -91,6 +91,7 @@ nine=o;
 }else;{
 cout << "\n";
     }
+system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -124,6 +125,9 @@ nine=x;
 }else;{
 cout << "\n";
     }
+    
+system("clear");
+
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -158,6 +162,7 @@ nine=o;
 }else;{
 cout << "\n";
     }
+    system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -193,6 +198,7 @@ nine=x;
 }else;{
 cout << "\n";
     }
+    system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -279,6 +285,7 @@ nine=o;
 }else;{
 cout << "\n";
     }
+    system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -367,6 +374,7 @@ nine=x;
 }else;{
 cout << "\n";
     }
+    system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -454,6 +462,7 @@ nine=o;
 }else;{
 cout << "\n";
     }
+    system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
@@ -541,6 +550,7 @@ nine=x;
 }else;{
 cout << "\n";
     }
+    system("clear");
 cout << "     #     #     \n";
 cout << "  " << one << "  #  " << two << "  #  " << three << "  \n";
 cout << "#################\n";
